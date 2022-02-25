@@ -33,7 +33,8 @@ public class Realization implements DatesToCronConverter {
 
     @Override
     public String getImplementationInfo() {
-        return "Богданов Алексей Сергеевич " + Realization.class.getName() + URI.create("");
+        return "Богданов Алексей Сергеевич " + Realization.class.getName() + " "
+                + URI.create("https://github.com/AlekseyBog/TestExe");
     }
 
     private Date convertDate(String d) throws ParseException {
