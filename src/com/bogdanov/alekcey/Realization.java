@@ -23,7 +23,7 @@ public class Realization implements DatesToCronConverter {
 
         for (String s : list) {
             try {
-                formatDate(convertDate(s), CRON_FORMAT);
+                System.out.println(formatDate(convertDate(s), CRON_FORMAT));
             } catch (ParseException e) {
                 e.printStackTrace();
             }
